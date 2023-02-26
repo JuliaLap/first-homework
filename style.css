@@ -1,0 +1,42 @@
+.allbody {
+    width: 900px;
+    margin: auto;
+
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+}
+
+header>img {
+    border: 3px solid black;
+}
+
+p {
+    text-indent: 10px;
+}
+
+ul>li {
+    list-style-type: none;
+}
+
+ul>li::before {
+    content: "●";
+    color: red;
+    margin-right: 5px;
+}
+
+.headline {
+    text-align: center;
+}
+
+header>img {
+    display: block;
+    margin: auto;
+}
